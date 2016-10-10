@@ -4,24 +4,20 @@
 var mongoose = require('mongoose');
 
 var serviceSchema = new mongoose.Schema({
-    user_name: String,
-    claim_id: Number,
-    claim_status: String,
-    claim_title: String,
-    nature_of_business: String,
-    IPS_location: String,
-    license_plate_number: String,
-    start_mileage: Number,
-    end_mileage: Number,
+    service_id: Number,
+    calendar_id: Number,
+    service_status: String,
+    date: String,
+    year: Number,
     month: Number,
     day: Number,
-    year: Number,
-    from_coordinate: String,
-    to_coordinate: String,
-    from_location: String,
-    to_location: String,
-    miles_traveled: Number,
-    time_stamp: String
+    service_category: String,
+    service_order: Number,
+    queue: Boolean,
+    queue_order: Number,
+    full_name: String,
+    service_name: String,
+    service_description: String
 });
 
 module.exports = mongoose.model('Service', serviceSchema, 'Service');
