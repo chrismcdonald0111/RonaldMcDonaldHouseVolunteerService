@@ -1,3 +1,3 @@
-/**
- * Created by Chris on 10/5/16.
- */
+volunteerService.controller('ServiceController', ["$scope", function($scope, $http) {
+    console.log('Service Controller');
+}]);

@@ -1,2 +1,2 @@
 # RonaldMcDonaldHouseVolunteerService
-Volunteer Service for the Ronald McDonald House of Central Indiana
+Volunteer Service Web Application for the Ronald McDonald House of Central Indiana

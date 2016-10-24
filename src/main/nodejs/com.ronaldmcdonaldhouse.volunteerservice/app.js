@@ -13,7 +13,6 @@ var express = require('express');
 var methodOverride = require('method-override');
 var mongoose = require('mongoose');
 var multer = require('multer');
-var expressSession = require('express-session');
 
 /**
  * Mongoose ORM for MongoDB
@@ -39,7 +38,7 @@ app.use(methodOverride(function(req) {
         delete req.body._method
         return method
     }
-}))
+}));
 
 /**
  * Set the routes used by the API

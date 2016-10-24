@@ -1,3 +1,3 @@
-/**
- * Created by Chris on 10/5/16.
- */
+volunteerService.controller('CalendarController', ["$scope", function($scope, $http) {
+    console.log('Calendar Controller');
+}]);
