@@ -1,0 +1,19 @@
+* {font-family:Arial;}
+html {
+    background-color: rgb(240, 240, 240);
+    margin:0 15%;
+}
+.navbar {
+    margin:0 15%;
+}
+body {
+    box-shadow: 0 2px 10px 0 black;
+    padding:50px 0 20px 0;
+    background-color:white;
+}
+.panel-default {
+    border:1px solid #C40000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:bold;
+}

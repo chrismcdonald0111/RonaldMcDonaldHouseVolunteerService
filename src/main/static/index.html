@@ -2,6 +2,7 @@
 <html>
 
     <head>
+        <title>Volunteer Calendar</title>
         <link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
         <script data-require="angular.js@1.2.12" data-semver="1.2.12" src="http://code.angularjs.org/1.2.12/angular.js"></script>
         <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
@@ -15,11 +16,17 @@
 
     <body>
         <div class="container" ng-app="volunteerService">
-            <nav>
-                <ul class="nav nav-tabs nav-pills">
-                    <li><a ui-sref="home">Home</a></li>
-                    <li><a ui-sref="calendar">Calendar</a></li>
-                </ul>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="http://www.rmhccin.org/" target=blank">Ronald McDonald House</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a ui-sref="home">Home</a></li>
+                        <li><a ui-sref="calendar">Calendar</a></li>
+                        <li><a ui-sref="service">Service</a></li>
+                    </ul>
+                </div>
             </nav>
 
             <ui-view></ui-view>

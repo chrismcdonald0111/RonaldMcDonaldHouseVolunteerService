@@ -3,6 +3,7 @@ var volunteerService = angular.module("volunteerService", ["ui.router"]);
 volunteerService.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
+
     $stateProvider
         .state("home", {
             url: "/home",
